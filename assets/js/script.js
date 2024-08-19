@@ -22,7 +22,7 @@ function createTaskCard(task) {
     .addClass('btn btn-danger delete')
     .text('Delete')
     .attr('data-task-id', task.id);
-  cardDeleteBtn.on('click', handleDeleteTask);
+cardDeleteBtn.on('click', handleDeleteTask);
 
 
   if (task.dueDate && task.status !== 'done') {

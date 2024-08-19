@@ -1,10 +1,12 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  background-color: rgb(83, 44, 120);
 }
 
 .swim-lanes {
   min-height: 60vh;
+  background-color: rgb(183, 109, 252);
 }
 
 .task-card {
@@ -14,3 +16,10 @@ body {
 .task-card:hover {
   cursor: grab;
 }
+ h1 {
+  color:white;
+ }
+
+ .lead {
+  color: white;
+ }
